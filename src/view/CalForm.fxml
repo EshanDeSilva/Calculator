@@ -6,17 +6,16 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="520.0" prefWidth="442.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CalFormController">
    <children>
-      <TextField fx:id="txtShow" editable="false" layoutX="13.0" layoutY="72.0" prefHeight="34.0" prefWidth="415.0">
+      <TextField fx:id="txtShow" alignment="CENTER_RIGHT" editable="false" layoutX="13.0" layoutY="72.0" prefHeight="34.0" prefWidth="415.0">
          <font>
-            <Font name="System Bold" size="14.0" />
+            <Font name="System Bold" size="15.0" />
          </font>
       </TextField>
-      <Label fx:id="lblAnswer" layoutX="14.0" layoutY="13.0" prefHeight="47.0" prefWidth="415.0" textAlignment="RIGHT">
+      <Label fx:id="lblAnswer" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="14.0" layoutY="13.0" prefHeight="47.0" prefWidth="415.0" textAlignment="RIGHT">
          <font>
-            <Font name="System Bold" size="16.0" />
+            <Font name="System Bold" size="28.0" />
          </font>
       </Label>
       <Button fx:id="btn0" layoutX="136.0" layoutY="449.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="65.0" text="0">
